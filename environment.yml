@@ -1,0 +1,8 @@
+name: pycsep_statsei
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pycsep
+  - jupyterlab
