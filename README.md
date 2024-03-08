@@ -8,10 +8,12 @@ This workshop is about testing earthquake forecasts and perform evaluations with
 
 ## Setting up
 
-> :bulb: **TL, DR** \
-        ```git clone https://github.com/cseptesting/pycsep_workshop_statsei24``` \
-        ```conda env create -f environment.yml``` && 
-        ```conda activate pycsep_statsei```
+> :bulb: **TL, DR**
+
+``` 
+git clone https://github.com/cseptesting/pycsep_workshop_statsei24
+conda env create -f environment.yml && conda activate pycsep_statsei
+```
 
 
  **Instructions**
