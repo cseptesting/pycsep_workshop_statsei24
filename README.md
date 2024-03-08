@@ -8,6 +8,13 @@ This workshop is about testing earthquake forecasts and perform evaluations with
 
 ## Setting up
 
+> :bulb: **TL, DR** \
+        ```git clone https://github.com/cseptesting/pycsep_workshop_statsei24``` \
+        ```conda env create -f environment.yml``` && 
+        ```conda activate pycsep_statsei```
+
+
+ **Instructions**
    * Clone or download this repository to your computer.
    * Set up ``Python`` and `Conda` using the [Miniforge](https://github.com/conda-forge/miniforge) or [MiniConda](https://docs.conda.io/en/latest/miniconda.html) distributions, following the instructions in the links.
    * Open a terminal window on your computer (in windows, open ``Miniforge Prompt`` or ``Anaconda Prompt``). Confirm that your ``Conda`` software is running by a command, e.g.:
@@ -15,12 +22,7 @@ This workshop is about testing earthquake forecasts and perform evaluations with
       conda --version
      ```
      Alternatively, you can use the `pip` python manager if desired (we recommend however using `Conda`, which handles better the required system library dependencies).
-   * Install [`pyCSEP`](https://github.com/sceccode/pycsep) following the [installation instructions](https://pycsep.readthedocs.io/en/latest/installation.html). TL;DR:
-     ```bash
-     conda create -y -n csep
-     conda activate csep
-     conda install -c conda-forge -y pycsep
-     ```
+   * Install [`pyCSEP`](https://github.com/sceccode/pycsep) following the [installation instructions](https://pycsep.readthedocs.io/en/latest/installation.html). 
    * Install the `jupyter` notebook package in the same environment where you installed `pyCSEP`:
      ```bash
      conda install -c conda-forge -y jupyterlab
