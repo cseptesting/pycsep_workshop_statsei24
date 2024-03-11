@@ -12,6 +12,7 @@ This workshop is about testing earthquake forecasts and perform evaluations with
 
 ``` 
 git clone https://github.com/cseptesting/pycsep_workshop_statsei24
+cd pycsep_workshop_statsei24
 conda env create -f environment.yml && conda activate pycsep_statsei
 ```
 
