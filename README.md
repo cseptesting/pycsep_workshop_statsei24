@@ -25,7 +25,7 @@ conda env create -f environment.yml && conda activate pycsep_statsei
       conda --version
      ```
      Alternatively, you can use the `pip` python manager if desired (we recommend however using `Conda`, which handles better the required system library dependencies).
-   * Install [`pyCSEP`](https://github.com/sceccode/pycsep) following the [installation instructions](https://pycsep.readthedocs.io/en/latest/installation.html). 
+   * Install [`pyCSEP`](https://github.com/sceccode/pycsep) following the [installation instructions](https://docs.cseptesting.org/getting_started/installing.html). 
    * Install the `jupyter` notebook package in the same environment where you installed `pyCSEP`:
      ```bash
      conda install -c conda-forge -y jupyterlab
